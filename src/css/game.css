@@ -1,0 +1,48 @@
+.Game {
+    text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.moves {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 240px; 
+  margin: 0 auto;
+}
+
+.tile {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.empty {
+  background-color: transparent;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin: 20px;
+  font-weight: 300;
+}
